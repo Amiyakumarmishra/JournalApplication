@@ -1,0 +1,5 @@
+package com.amiya.journalApp.controller;
+
+public class UserController {
+
+}

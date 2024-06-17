@@ -1,0 +1,8 @@
+package com.amiya.journalApp.model;
+
+import lombok.Data;
+
+@Data
+public class JournalModel {
+
+}

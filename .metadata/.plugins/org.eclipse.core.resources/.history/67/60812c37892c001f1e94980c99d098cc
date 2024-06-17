@@ -1,0 +1,5 @@
+package com.amiya.journalApp.model;
+
+public class JournalModel {
+
+}

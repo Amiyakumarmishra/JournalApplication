@@ -1,0 +1,4 @@
+spring.application.name=journalApp
+spring.data.mongodb.uri=mongodb+srv://amiyamishra122001:IC5Zh6tWiEDA25El@cluster0.movg5gs.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+spring.data.mongodb.database=journaldb
+spring.data.mongodb.auto-index-creation=true

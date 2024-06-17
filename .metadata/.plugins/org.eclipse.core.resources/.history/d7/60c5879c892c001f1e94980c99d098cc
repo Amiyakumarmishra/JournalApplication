@@ -1,0 +1,24 @@
+package com.amiya.journalApp.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.amiya.journalApp.entity.JournalEntry;
+import com.amiya.journalApp.model.JournalModel;
+import com.amiya.journalApp.repository.JournalEntryRepository;
+
+@Service
+public class JournalEntryService {
+	
+    @Autowired
+    private JournalEntryRepository journalEntryRepository;
+    
+    public void saveEntry(JournalModel journalModel) {
+        try {
+        	JournalEntry journalEntry = new JournalEntry();
+            JournalEntry saved = journalEntryRepository.save(journalEntry);
+        } catch (Exception e) {
+            throw new RuntimeException("An error occurred while saving the entry.", e);
+        }
+    }
+}

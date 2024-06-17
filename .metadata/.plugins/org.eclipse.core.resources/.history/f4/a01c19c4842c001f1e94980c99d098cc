@@ -1,0 +1,10 @@
+package com.amiya.journalApp.service;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class JournalEntryService {
+	
+    @Autowired
+    private JournalEntryRepository journalEntryRepository;
+}
